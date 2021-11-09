@@ -1,0 +1,14 @@
+{
+    "entryPoints": [
+        "./src/index.ts",
+        "./src/"
+    ],
+    "entryPointStrategy": "Expand",
+    "exclude": "/__tests__/*.ts, **/*.test.ts, /mocks/**/*.ts",
+    "out": "./docs",
+    "name": "Smart City",
+    "theme": "default",
+    "readme": "none",
+    "tsconfig": "./tsconfig.json",
+    "includes": "./src"
+}
